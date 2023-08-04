@@ -4,7 +4,7 @@ import axios from "axios";
 
 //Creating a cliet with a base URL
 const client = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://one0starreviewapi.onrender.com/api",
 });
 
 export default client;
